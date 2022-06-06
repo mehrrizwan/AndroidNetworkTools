@@ -32,7 +32,7 @@ subprojects {
 
   // When updating these, remember to update the vars in app/build.gradle (for FDroid comptability)
   // Remember to update readme, and lets keep these version numbers in line with the github releases
-  ext.appVersionName = "0.4.5.3"
-  ext.appVersionCode = 21
+  ext.appVersionName = "0.4.5.4"
+  ext.appVersionCode = 22
 
 }
