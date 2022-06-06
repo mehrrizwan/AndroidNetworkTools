@@ -118,32 +118,33 @@ public class ARPInfo {
      * @return the lines of the ARP Cache.
      */
     private static ArrayList<String> getLinesInARPCache() {
-        ArrayList<String> lines = new ArrayList<>();
+//         ArrayList<String> lines = new ArrayList<>();
 
-        // If we cant read the file just return empty list
-        if (!new File("/proc/net/arp").canRead()){
-            return lines;
-        }
+//         // If we cant read the file just return empty list
+//         if (!new File("/proc/net/arp").canRead()){
+//             return lines;
+//         }
 
-        BufferedReader br = null;
-        try {
-            br = new BufferedReader(new FileReader("/proc/net/arp"));
-            String line;
-            while ((line = br.readLine()) != null) {
-                lines.add(line);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                if (br != null) {
-                    br.close();
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        return lines;
+//         BufferedReader br = null;
+//         try {
+//             br = new BufferedReader(new FileReader("/proc/net/arp"));
+//             String line;
+//             while ((line = br.readLine()) != null) {
+//                 lines.add(line);
+//             }
+//         } catch (Exception e) {
+//             e.printStackTrace();
+//         } finally {
+//             try {
+//                 if (br != null) {
+//                     br.close();
+//                 }
+//             } catch (IOException e) {
+//                 e.printStackTrace();
+//             }
+//         }
+//         return lines;
+        return null;
     }
 
 
