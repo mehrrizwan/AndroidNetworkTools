@@ -118,7 +118,7 @@ public class ARPInfo {
      * @return the lines of the ARP Cache.
      */
     private static ArrayList<String> getLinesInARPCache() {
-//         ArrayList<String> lines = new ArrayList<>();
+        ArrayList<String> lines = new ArrayList<>();
 
 //         // If we cant read the file just return empty list
 //         if (!new File("/proc/net/arp").canRead()){
@@ -143,8 +143,7 @@ public class ARPInfo {
 //                 e.printStackTrace();
 //             }
 //         }
-//         return lines;
-        return null;
+        return lines;
     }
 
 
